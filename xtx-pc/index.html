@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- add the bootstrap -->
+     <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap JS (optional for components like dropdowns) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- below description and keywords are for SEO  -->
+    <meta name="description" content="official website of the little rabit supermarket, the best supermarket globally, providing convenient online shopping experience.">
+    <meta name="keywords" content="little rabit supermarket, online shopping, fresh food, cheap prices, fast delivery">
+    <title>little rabit supermarket - fresh, cheap, fast</title>
+    <!-- add favicon.ico -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+    <link rel="stylesheet" href="./">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <!-- some simple javascript functions -->
+    <script>
+        const userName = prompt("Welcome to Little Rabbit Supermarket! What's your name?");
+        if (userName) {
+            alert("Hi " + userName + "! Enjoy your shopping 🛒");
+        }
+    </script>
+
+    <!-- shortcut part -->
+    <div class="shortcut">
+        <div class="wrapper">
+            <ul>
+                <li><a href="#">please login</a></li>
+                <li><a href="#">free register</a></li>
+                <li><a href="#">my order</a></li>
+                <li><a href="#">membership center</a></li>
+                <li><a href="#">help center</a></li>
+                <li><a href="#">online service</a></li>
+                <li><a href="#"><span></span>mobile version</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- header part -->
+    <div class="header wrapper">
+        <div class="logo">
+            <h1><a href="#">rabbit shopping</a></h1>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="#">Homepage</a></li>
+                <li><a href="#">Fresh</a></li>
+                <li><a href="#">Food</a></li>
+                <li><a href="#">Kitchen</a></li>
+                <li><a href="#">Electronics</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Bodycare</a></li>
+                <li><a href="#">Baby</a></li>
+                <li><a href="#">Clothes</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <span></span>
+            <input type="text" placeholder="search here ...">
+        </div>
+        <div class="cart">
+            <a href="#"><span>3</span></a>
+        </div>
+    </div>
+    <div class="bannner">
+        <div class="wapper">
+            <div class="left_nav">
+                <ul>
+                    <li>
+                        <a href="#"><h3>Fresh</h3>fruits vegetables</a>
+                    </li>
+                    <li>
+                        <a href="#"><h3>Food</h3>breads meat</a>
+                    </li>
+                    <li>
+                        <a href="#"><h3>Electronics</h3>multiple</a>
+                    </li>
+                    <li>
+                        <a href="#"><h3>House</h3>family single</a>
+                    </li>
+                    <li>
+                        <a href="#"><h3>Bodycare</h3>body facial</a>
+                    </li>
+                    <li>
+                        <a href="#"><h3>Baby</h3>eat drink</a>
+                    </li>
+                    <li>
+                        <a href="#"><h3>Clothes</h3>top bottom</a>
+                    </li>
+                    <li>
+                        <a href="#"><h3>Others</h3>load more ...</a>
+                    </li>
+                </ul>
+            </div>
+            <span class="left"></span>
+            <span class="right"></span>
+        </div>
+    </div>
+
+    <!-- 新鲜好物 -->
+    <div class="new_goods wapper">
+        <div class="title_area">
+            <h4>New and Fresh</h4>
+            <span>Fresh and Good Quality</span>
+            <a href="#">All</a>
+        </div>
+        <div class="row">
+            <div class="good">
+                <a href="#"><img src="./uploads/new_goods_1.jpg" alt="product1">
+                    <h5>Remy Vacuum Cleaner</h5>
+                    <span>$899</span>
+                </a>
+            </div>
+            <div class="good">
+                <a href="#"><img src="./uploads/new_goods_2.jpg" alt="product1">
+                    <h5>Refrigerator</h5>
+                    <span>$10899</span>
+                </a>
+            </div>
+            <div class="good">
+                <a href="#"><img src="./uploads/new_goods_3.jpg" alt="product1">
+                    <h5>Beef Rice</h5>
+                    <span>$40</span>
+                </a>
+            </div>
+            <div class="good">
+                <a href="#"><img src="./uploads/new_goods_4.jpg" alt="product1">
+                    <h5>Crazy Smart Watch</h5>
+                    <span>$6899</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- 人气推荐 -->
+    <div class="popular wapper">
+        <div class="title_area">
+            <h4>Recommendation</h4>
+            <span>Popular and Hot </span>
+            <!-- <a href="#">查看全部</a> -->
+        </div>
+        <div class="row">
+            <div class="good">
+                <a href="#"><img src="./uploads/popular_1.jpg" alt="product1">
+                    <h5>Game Tool</h5>
+                    <span>$33899</span>
+                </a>
+            </div>
+            <div class="good">
+                <a href="#"><img src="./uploads/popular_2.jpg" alt="product1">
+                    <h5>Kitchen Set</h5>
+                    <span>$2899</span>
+                </a>
+            </div>
+            <div class="good">
+                <a href="#"><img src="./uploads/popular_3.jpg" alt="product1">
+                    <h5>Long Hair</h5>
+                    <span>$899</span>
+                </a>
+            </div>
+            <div class="good">
+                <a href="#"><img src="./uploads/popular_4.jpg" alt="product1">
+                    <h5>Coupon Set</h5>
+                    <span>$100</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 热门品牌 -->
+    <div class="brand">
+        <div class="wapper">
+            <div class="title_area">
+                <h4>Hot Brands</h4>
+                <span>Classic and Good Quality</span>
+                <!-- <a href="#">查看全部</a> -->
+                <div class="go_page clearfix">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="brand_good">
+                    <a href="#"><img src="./uploads/brand_goods_1.jpg" alt="brand_good"></a>
+                </div>
+                <div class="brand_good">
+                    <a href="#"><img src="./uploads/brand_goods_2.jpg" alt="brand_good"></a>
+                </div>
+                <div class="brand_good">
+                    <a href="#"><img src="./uploads/brand_goods_3.jpg" alt="brand_good"></a>
+                </div>
+                <div class="brand_good">
+                    <a href="#"><img src="./uploads/brand_goods_4.jpg" alt="brand_good"></a>
+                </div>
+                <div class="brand_good">
+                    <a href="#"><img src="./uploads/brand_goods_5.jpg" alt="brand_good"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 生鲜 -->
+    <div class="fresh wapper">
+        <div class="title_area">
+            <h4>Fresh</h4>
+            <a href="#">All</a>
+            <ul>
+                <li><a href="#">Fruits</a></li>
+                <li><a href="#">vegetables</a></li>
+                <li><a href="#">Meat</a></li>
+                <li><a href="#">Bottom</a></li>
+                <li><a href="#">Shirts</a></li>
+                <li><a href="#">T-Shirts</a></li>
+                <li><a href="#">Underwear</a></li>
+            </ul>
+        </div>
+        <div class="row2">
+            <div class="cover">
+                <a href="#"><img src="./uploads/fresh_goods_cover.png" alt="cover">
+                </a>
+            </div>
+            <ul>
+                <li>
+                    <div class="little_good">
+                        <a href="#"><img src="./uploads/fresh_goods_1.jpg" alt="little_good">
+                            <h5>美威 Salmon</h5>
+                            <h5>seafood</h5>
+                            <span>$1899</span>
+                        </a>
+                    </div>
+                    <div class="find_similar">
+                        <a href="#">
+                            <span>Look For Similar</span>
+                            <div class="line"></div>
+                            <span>Discover More ></span>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="little_good">
+                        <a href="#"><img src="./uploads/fresh_goods_2.jpg" alt="little_good">
+                            <h5>美威 Lobsters</h5>
+                            <h5>seafood</h5>
+                            <span>$299</span>
+                        </a>
+                    </div>
+                    <div class="find_similar">
+                        <a href="#">
+                            <span>Look For Similar</span>
+                            <div class="line"></div>
+                            <span>Discover More  ></span>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="little_good">
+                        <a href="#"><img src="./uploads/fresh_goods_3.jpg" alt="little_good">
+                            <h5>美威 Fish</h5>
+                            <h5>seafood</h5>
+                            <span>$89</span>
+                        </a>
+                    </div>
+                    <div class="find_similar">
+                        <a href="#">
+                            <span>Look For Similar</span>
+                            <div class="line"></div>
+                            <span>Discover More  ></span>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="little_good">
+                        <a href="#"><img src="./uploads/fresh_goods_4.jpg" alt="little_good">
+                            <h5>美威 sea cucumber</h5>
+                            <h5>seafood</h5>
+                            <span>$899</span>
+                        </a>
+                    </div>
+                    <div class="find_similar">
+                        <a href="#">
+                            <span>Look For Similar</span>
+                            <div class="line"></div>
+                            <span>Discover More ></span>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="little_good">
+                        <a href="#"><img src="./uploads/fresh_goods_5.jpg" alt="little_good">
+                            <h5>美威 Red Pitaya</h5>
+                            <h5>fruits</h5>
+                            <span>$20</span>
+                        </a>
+                    </div>
+                    <div class="find_similar">
+                        <a href="#">
+                            <span>Similar</span>
+                            <div class="line"></div>
+                            <span>More ></span>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 最新专题 -->
+    <div class="topic ">
+        <div class="wapper">
+            <div class="title_area">
+                <h4>Newest Topics</h4>
+                <!-- <span>新鲜出炉 品质靠谱</span> -->
+                <a href="#">All</a>
+            </div>
+            <div class="row">
+                <div class="topic_good">
+                    <a href="#">
+                        <img src="./uploads/topic_goods_1.jpg" alt="topic">
+                        <div class="topic_good_title">
+                            <h4>Always Enjoy Food</h4>
+                            <span>Good Kitchen and Good Life</span>
+                            <div class="price">
+                                <span>$29.9</span>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="comments">
+                        <a href="#"><span></span>1220</a>
+                        <a href="#"><span></span>1220</a>
+                        <a href="#"><span></span>1220</a>
+                    </div>
+                </div>
+                <div class="topic_good">
+                    <a href="#">
+                        <img src="./uploads/topic_goods_1.jpg" alt="topic">
+                        <div class="topic_good_title">
+                            <h4>Take care yourself</h4>
+                            <span>Highest Quality</span>
+                            <div class="price">
+                                <span>$32</span>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="comments">
+                        <a href="#"><span></span>1220</a>
+                        <a href="#"><span></span>1220</a>
+                        <a href="#"><span></span>1220</a>
+                    </div>
+                </div>
+                <div class="topic_good">
+                    <a href="#">
+                        <img src="./uploads/topic_goods_1.jpg" alt="topic">
+                        <div class="topic_good_title">
+                            <h4>Work Hard and Play Hard</h4>
+                            <span>Be yourself</span>
+                            <div class="price">
+                                <span>$80</span>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="comments">
+                        <a href="#"><span></span>1220</a>
+                        <a href="#"><span></span>1220</a>
+                        <a href="#"><span></span>1220</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- bottom part, use bootstrap framework -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+          <ul class="list-inline mb-3">
+            <li class="list-inline-item"><a href="#" class="text-white">About Us</a></li>
+            <li class="list-inline-item"><a href="#" class="text-white">Help Center</a></li>
+            <li class="list-inline-item"><a href="#" class="text-white">Services</a></li>
+            <!-- more links -->
+          </ul>
+          <p class="mb-0">CopyRight @ Jerry</p>
+        </div>
+    </footer>
+      
+
+</body>
+</html>
